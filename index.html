@@ -10,6 +10,12 @@
 
 <meta name="description" content="Advogado Criminalista em João Pessoa 24 horas. Atendimento imediato para prisão em flagrante, audiência de custódia, habeas corpus e liberdade provisória. Defesa criminal urgente em João Pessoa e região metropolitana.">
 
+<!-- SEO LOCAL -->
+<meta name="geo.region" content="BR-PB">
+<meta name="geo.placename" content="João Pessoa">
+<meta name="geo.position" content="-7.11532;-34.861">
+<meta name="ICBM" content="-7.11532, -34.861">
+
 <meta name="keywords" content="advogado criminalista João Pessoa, advogado 24h João Pessoa, prisão em flagrante João Pessoa, habeas corpus João Pessoa, advogado criminal PB">
 
 <meta property="og:title" content="Advogado Criminalista 24h em João Pessoa">
@@ -19,36 +25,56 @@
 <link rel="canonical" href="https://wagnersilvaadv.com.br">
 
 <style>
-body {
+/* RESET E TIPOGRAFIA */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
+}
+
+body {
     background-color: #0b0b0b;
     color: #f5f5f5;
     line-height: 1.6;
+    scroll-behavior: smooth;
 }
 
+/* HEADER PREMIUM */
 header {
-    background: linear-gradient(to right, #000000, #111111);
+    background: radial-gradient(circle at center, #111 0%, #000 80%);
     text-align: center;
-    padding: 100px 20px;
+    padding: 120px 20px;
+    position: relative;
+    overflow: hidden;
 }
 
-h1 {
-    font-size: 42px;
+header h1 {
+    font-size: 46px;
+    color: #c9a227;
+    margin-bottom: 15px;
+    animation: fadeInDown 1s ease-out;
+}
+
+header p {
+    color: #f5f5f5;
+    font-size: 18px;
     margin-bottom: 10px;
-    color: #d4af37;
+    animation: fadeInUp 1s ease-out;
 }
 
-h2 {
-    color: #d4af37;
+/* ANIMAÇÕES SUAVES */
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-50px);}
+    100% { opacity: 1; transform: translateY(0);}
 }
 
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 60px 20px;
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(50px);}
+    100% { opacity: 1; transform: translateY(0);}
 }
 
+/* BOTÃO WHATSAPP PREMIUM */
 .btn-whatsapp {
     display: inline-block;
     padding: 18px 35px;
@@ -56,13 +82,34 @@ h2 {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-top: 20px;
     font-size: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
 }
 
+.btn-whatsapp:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+/* SEÇÕES */
 .section {
     margin-bottom: 60px;
+    animation: fadeIn 1s ease forwards;
+}
+
+h2 {
+    color: #c9a227;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -76,11 +123,53 @@ ul {
     margin-top: 20px;
 }
 
+/* MAPA ESTILIZADO */
+iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+}
+
+/* RODAPÉ */
 footer {
     background: #111;
     text-align: center;
     padding: 30px;
     font-size: 14px;
+    color: #c9a227;
+}
+
+/* BOTÃO WHATSAPP FLUTUANTE */
+#whatsapp-fixo {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    border-radius: 50%;
+    padding: 18px;
+    background: #25D366;
+    color: #fff;
+    font-size: 28px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+#whatsapp-fixo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+/* FADE IN SEÇÕES */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px);}
+    100% { opacity: 1; transform: translateY(0);}
 }
 </style>
 </head>
@@ -96,6 +185,9 @@ footer {
 ATENDIMENTO URGENTE NO WHATSAPP
 </a>
 </header>
+
+<!-- BOTÃO WHATSAPP FLUTUANTE -->
+<a href="https://wa.me/5583998520557" target="_blank" id="whatsapp-fixo">💬</a>
 
 <div class="container">
 
@@ -130,8 +222,7 @@ FALAR AGORA COM ADVOGADO 24H
 <h2>Sobre o Advogado</h2>
 <p>Advogado criminalista com atuação estratégica e técnica em defesa penal, garantindo proteção de direitos fundamentais e atuação firme perante delegacias, fóruns e tribunais.</p>
 
-<!-- AQUI VOCÊ PODERÁ COLOCAR SUA FOTO -->
-<!-- Para inserir sua foto, envie a imagem para o repositório e substitua o nome abaixo -->
+<!-- FOTO DO ADVOGADO -->
 <!-- Exemplo: <img src="foto.jpg" class="photo"> -->
 
 </div>
@@ -142,6 +233,14 @@ FALAR AGORA COM ADVOGADO 24H
 <p><strong>OAB/PB:</strong> 32.045</p>
 <p><strong>Atendimento:</strong> 24 Horas</p>
 <p><strong>Localização:</strong> João Pessoa – PB</p>
+
+<!-- MAPA PREMIUM -->
+<h2>Localização</h2>
+<iframe 
+    src="https://www.google.com/maps?q=João+Pessoa+PB&output=embed"
+    allowfullscreen=""
+    loading="lazy">
+</iframe>
 </div>
 
 </div>
@@ -149,25 +248,6 @@ FALAR AGORA COM ADVOGADO 24H
 <footer>
 © 2026 Wagner Silva Pinto – OAB/PB 32.045 – Todos os direitos reservados
 </footer>
-</footer>
-
-<a href="https://wa.me/5583998520557" 
-style="position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px 20px;
-border-radius:50px;
-font-weight:bold;
-text-decoration:none;
-box-shadow:0 0 15px rgba(0,0,0,0.6);
-z-index:1000;">
-WhatsApp 24h
-</a>
-
-</body>
-</html>
 
 </body>
 </html>
