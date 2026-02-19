@@ -2,281 +2,269 @@
 <html lang="pt-BR">
 <head>
     <meta name="google-site-verification" content="UAWqyHsCtzoz51tqn9LOJTI69SBmD69teSrl4BGtlxU" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ADVOGADO CRIMINALISTA 24H | Wagner Silva - João Pessoa</title>
-<meta name="description" content="Advogado Criminalista 24h em João Pessoa. Especialista em Prisão em Flagrante, Audiência de Custódia e Habeas Corpus. Atendimento imediato.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVOGADO CRIMINALISTA - JOÃO PESSOA | Wagner Silva</title>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <meta name="description" content="Advogado Criminalista 24h em João Pessoa. Especialista em Prisão em Flagrante, Audiência de Custódia e Habeas Corpus. Atendimento imediato.">
+    <meta name="geo.region" content="BR-PB">
+    <meta name="geo.placename" content="João Pessoa">
+    
+    <style>
+        /* RESET E CORES PREMIUM */
+        :root {
+            --gold: #c9a227;
+            --dark-bg: #050505;
+            --card-bg: #121212;
+            --emergency-red: #e63946;
+            --whatsapp-green: #25D366;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', 'Segoe UI', sans-serif; }
+        body { background-color: var(--dark-bg); color: #e0e0e0; line-height: 1.6; scroll-behavior: smooth; }
 
-<meta name="geo.region" content="BR-PB">
-<meta name="geo.placename" content="João Pessoa">
+        /* HEADER IMPACTANTE */
+        header {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 150px 20px;
+            border-bottom: 3px solid var(--gold);
+        }
+        .badge-24h {
+            background: var(--emergency-red);
+            color: white;
+            padding: 5px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: inline-block;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(230, 57, 70, 0); }
+            100% { transform: scale(1); }
+        }
+        header h1 { font-size: clamp(32px, 5vw, 56px); color: var(--gold); text-transform: uppercase; font-weight: 900; }
+        header p { font-size: 20px; font-weight: 300; margin-top: 10px; }
 
-<style>
-/* RESET E CORES PREMIUM */
-:root {
-    --gold: #c9a227;
-    --dark-bg: #050505;
-    --card-bg: #121212;
-    --emergency-red: #e63946;
-    --whatsapp-green: #25D366;
-}
+        /* BOTÕES */
+        .btn-emergency {
+            display: inline-block;
+            padding: 22px 40px;
+            background: var(--emergency-red);
+            color: white;
+            text-decoration: none;
+            font-weight: 900;
+            border-radius: 5px;
+            margin-top: 30px;
+            font-size: 20px;
+            transition: 0.4s;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-emergency:hover { background: #b91c1c; transform: translateY(-5px); }
 
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', 'Segoe UI', sans-serif; }
+        /* SEÇÃO SOBRE E TÓPICOS EXPLICAÇÕES */
+        .container { max-width: 1200px; margin: auto; padding: 80px 20px; }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+        .photo-frame {
+            border: 2px solid var(--gold);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .photo-frame img {
+            width: 100%;
+            border-radius: 5px;
+            display: block;
+            filter: grayscale(20%);
+        }
+        
+        /* EXPLICAÇÕES DE LEI */
+        .law-section {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 5px solid var(--gold);
+        }
+        .law-section h3 { color: var(--gold); font-size: 24px; margin-bottom: 15px; text-transform: uppercase; }
+        .law-section p { margin-bottom: 15px; }
 
-body { background-color: var(--dark-bg); color: #e0e0e0; line-height: 1.6; scroll-behavior: smooth; }
+        /* CARDS DE SERVIÇOS */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .service-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-left: 4px solid var(--gold);
+            transition: 0.3s;
+        }
+        .service-card:hover { background: #1a1a1a; transform: scale(1.03); }
+        .service-card h3 { color: var(--gold); margin-bottom: 15px; text-transform: uppercase; font-size: 18px; }
 
-/* HEADER IMPACTANTE */
-header {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Imagem de fundo jurídica */
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 150px 20px;
-    border-bottom: 3px solid var(--gold);
-}
+        h2.section-title { font-size: 36px; text-align: center; margin-bottom: 50px; text-transform: uppercase; color: var(--gold); }
 
-.badge-24h {
-    background: var(--emergency-red);
-    color: white;
-    padding: 5px 15px;
-    font-weight: bold;
-    border-radius: 5px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: inline-block;
-    margin-bottom: 20px;
-    animation: pulse 2s infinite;
-}
+        /* CONTATO */
+        .contact-info {
+            background: var(--gold);
+            color: black;
+            padding: 60px 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .contact-info p { font-size: 24px; font-weight: 800; }
 
-@keyframes pulse {
-    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.7); }
-    70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(230, 57, 70, 0); }
-    100% { transform: scale(1); }
-}
+        /* WHATSAPP FLUTUANTE */
+        .whatsapp-fixo {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        .whatsapp-balao {
+            background-color: #fff;
+            color: #000;
+            padding: 12px 20px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+            font-size: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        .whatsapp-balao img { width: 25px; }
 
-header h1 { font-size: clamp(32px, 5vw, 56px); color: var(--gold); text-transform: uppercase; font-weight: 900; }
-header p { font-size: 20px; font-weight: 300; margin-top: 10px; }
-
-/* BOTÕES AGRESSIVOS */
-.btn-emergency {
-    display: inline-block;
-    padding: 22px 40px;
-    background: var(--emergency-red);
-    color: white;
-    text-decoration: none;
-    font-weight: 900;
-    border-radius: 5px;
-    margin-top: 30px;
-    font-size: 20px;
-    transition: 0.4s;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-emergency:hover { background: #b91c1c; transform: translateY(-5px); }
-
-/* SEÇÃO SOBRE COM FOTO */
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.photo-frame {
-    border: 2px solid var(--gold);
-    padding: 10px;
-    border-radius: 10px;
-    position: relative;
-}
-
-.photo-frame img {
-    width: 100%;
-    border-radius: 5px;
-    display: block;
-    filter: grayscale(30%);
-}
-
-/* CARDS DE SERVIÇOS */
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    margin-top: 40px;
-}
-
-.service-card {
-    background: var(--card-bg);
-    padding: 30px;
-    border-left: 4px solid var(--gold);
-    transition: 0.3s;
-}
-
-.service-card:hover { background: #1a1a1a; transform: scale(1.03); }
-.service-card h3 { color: var(--gold); margin-bottom: 15px; text-transform: uppercase; font-size: 18px; }
-
-/* CONTAINER PRINCIPAL */
-.container { max-width: 1200px; margin: auto; padding: 80px 20px; }
-h2.section-title { font-size: 36px; text-align: center; margin-bottom: 50px; text-transform: uppercase; color: var(--gold); }
-
-/* CONTATO */
-.contact-info {
-    background: var(--gold);
-    color: black;
-    padding: 40px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.contact-info p { font-size: 24px; font-weight: 800; }
-
-/* WHATSAPP FLUTUANTE */
-.whatsapp-fixo {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-}
-
-.whatsapp-balao {
-    background-color: #fff; /* Fundo branco */
-    color: #000; /* Texto preto */
-    padding: 12px 20px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 800;
-    font-size: 14px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    transition: 0.3s;
-}
-
-.whatsapp-balao img {
-    width: 25px; /* Tamanho do ícone real */
-}
-
-.whatsapp-balao:hover {
-    transform: scale(1.05);
-}
-@media (max-width: 768px) {
-    .about-grid { grid-template-columns: 1fr; }
-    header h1 { font-size: 32px; }
-}
-</style>
+        @media (max-width: 768px) {
+            .about-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 32px; }
+            .law-section { padding: 20px; }
+        }
+    </style>
 </head>
 <body>
-<a href="https://wa.me/5583998520557" class="whatsapp-fixo" target="_blank">
-    <div class="whatsapp-balao">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-        <span>PRECISA DE AJUDA?</span>
-    </div>
-</a>
 
-<header>
-    <div class="badge-24h">Plantão 24 Horas - João Pessoa e Regiões</div>
-    <h1>     WAGNER SILVA - CRIMINALISTA</h1>
-    <p>Defesa Criminal Especializada | Combate à Prisão Ilegal</p>
-    <a class="btn-emergency" href="https://wa.me/5583998520557">Acionar Advogado Agora</a>
-</header>
+    <a href="https://wa.me/5583998520557" class="whatsapp-fixo" target="_blank">
+        <div class="whatsapp-balao">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            <span>PRECISA DE AJUDA?</span>
+        </div>
+    </a>
 
-<div class="container">
-    <section class="section">
-        <h2 class="section-title">A Liberdade Não Pode Esperar</h2>
+    <header>
+        <div class="badge-24h">Plantão 24 Horas - João Pessoa e Regiões</div>
+        <h1>WAGNER SILVA - CRIMINALISTA</h1>
+        <p>Defesa Criminal Especializada | OAB/PB 32.045</p>
+        <a class="btn-emergency" href="https://wa.me/5583998520557">Acionar Advogado Agora</a>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2 class="section-title">A Liberdade Não Pode Esperar</h2>
+            <div class="about-grid">
+                <div class="photo-frame">
+                    <img src="P.jpeg" alt="Dr. Wagner Silva Pinto">
+                </div>
+                <div>
+                    <h3 style="color: var(--gold); font-size: 28px; margin-bottom: 20px;">Atuação Estratégica na Crise</h3>
+                    <p>Quando a liberdade está em jogo, cada segundo conta. Minha atuação é focada em <strong>anular ilegalidades</strong> e garantir que seus direitos constitucionais sejam respeitados.</p>
+                    <p>Especialista em situações de urgência em delegacias e tribunais de João Pessoa e Regiões.</p>
+                    <a class="btn-emergency" style="font-size: 16px; padding: 15px 25px;" href="https://wa.me/5583998520557">Falar com o Especialista</a>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
+
+        <h2 class="section-title">Guia de Defesa Criminal</h2>
+
         <div class="about-grid">
+            <div class="law-section">
+                <h3>1. Prisão em Flagrante</h3>
+                <p>Ocorre quando alguém é surpreendido cometendo um crime ou logo após o ato. É o momento mais crítico, onde abusos de autoridade são comuns.</p>
+                <p><strong>Ação do Advogado:</strong> Verificamos a legalidade da prisão, evitamos depoimentos sem orientação e garantimos que a integridade do preso seja preservada desde o primeiro minuto na delegacia.</p>
+            </div>
             <div class="photo-frame">
-                <img src="P.jpeg" alt="Dr. Wagner Silva Pinto">
-            </div>
-            <div>
-                <h3 style="color: var(--gold); font-size: 28px; margin-bottom: 20px;">Atuação Estratégica na Crise</h3>
-                <p>Quando a liberdade está em jogo, cada segundo conta. Não entregue seu destino ao acaso. Minha atuação é focada em <strong>anular ilegalidades</strong> e garantir que seus direitos constitucionais sejam respeitados com o máximo rigor técnico.</p>
-                <br>
-                <p>Especialista em casos complexos e situações de urgência máxima em delegacias e tribunais de João Pessoa e Regiões.</p>
-                <a class="btn-emergency" style="font-size: 16px; padding: 15px 25px;" href="https://wa.me/5583998520557">Falar com o Especialista</a>
+                <img src="https://images.unsplash.com/photo-1589578527966-fdac2f44af6a?auto=format&fit=crop&w=600&q=80" alt="Prisão em Flagrante">
             </div>
         </div>
-    </section>
 
-    <hr style="border: 0; border-top: 1px solid #333; margin: 80px 0;">
-
-    <section class="section">
-        <h2 class="section-title">Especialidades Criminais</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Prisão em Flagrante</h3>
-                <p>Acompanhamento imediato em delegacias para evitar abusos e garantir a liberdade.</p>
+        <div class="about-grid" style="direction: rtl;">
+            <div class="law-section" style="direction: ltr;">
+                <h3>2. Audiência de Custódia</h3>
+                <p>Todo preso em flagrante deve ser levado a um juiz em até 24 horas. O objetivo não é julgar o crime, mas decidir se a pessoa responderá em liberdade ou se a prisão será mantida.</p>
+                <p><strong>Ação do Advogado:</strong> Apresentamos pedidos de liberdade provisória, relaxamento de prisão ilegal ou aplicação de medidas cautelares (como tornozeleira) em vez do cárcere.</p>
             </div>
-            <div class="service-card">
-                <h3>Audiência de Custódia</h3>
-                <p>Defesa técnica para impedir a conversão da prisão em flagrante em preventiva.</p>
-            </div>
-            <div class="service-card">
-                <h3>Habeas Corpus</h3>
-                <p>Medidas urgentes perante os Tribunais para cessar o constrangimento ilegal.</p>
-            </div>
-            <div class="service-card">
-                <h3>Tráfico e Organização</h3>
-                <p>Defesa robusta em crimes de alta complexidade e Lei de Drogas.</p>
-            </div>
-            <div class="service-card">
-                <h3>Tribunal do Júri</h3>
-                <p>Atuação técnica perante o Conselho de Sentença (Crimes contra a vida).</p>
-            </div>
-            <div class="service-card">
-                <h3>Violência Doméstica</h3>
-                <p>Defesa e revogação de medidas protetivas de urgência.</p>
+            <div class="photo-frame">
+                <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=600&q=80" alt="Audiência de Custódia">
             </div>
         </div>
-    </section>
 
-    <section class="section" style="margin-top: 100px;">
-        <div class="about-grid" style="direction: rtl;"> <div class="photo-frame">
-                <img src="L.png" alt="Escritório de Advocacia">
+        <div class="about-grid">
+            <div class="law-section">
+                <h3>3. Lei Maria da Penha</h3>
+                <p>Envolve acusações de violência doméstica. Muitas vezes resulta em Medidas Protetivas imediatas que afastam o acusado do lar e da família, antes mesmo de qualquer prova robusta.</p>
+                <p><strong>Ação do Advogado:</strong> Atuamos na revogação de medidas protetivas abusivas e na defesa técnica em inquéritos policiais, buscando evitar condenações injustas e garantir o devido processo legal.</p>
             </div>
-            <div style="direction: ltr;">
-                <h2 style="color: var(--gold);">Defesa Inabalável</h2>
-                <p> Segurança de um profissional 100% qualificado e devidamente atuante em João Pessoa e Regiões da Paraíba.</p>
-                <ul style="list-style: none; margin-top: 20px;">
-                    <li>✔️ Atendimento 24h </li>
-                    <li>✔️ Sigilo Absoluto </li>
-                    <li>✔️ Técnica Jurídica Com Anos de Atuação </li>
-                </ul>
+            <div class="photo-frame">
+                <img src="https://images.unsplash.com/photo-1453941403708-341538afba12?auto=format&fit=crop&w=600&q=80" alt="Lei Maria da Penha">
             </div>
         </div>
-    </section>
 
-    <section class="section" style="margin-top: 80px;">
-        <div class="contact-info">
-            <p>ESTÁ PRECISANDO DE AJUDA AGORA?</p>
-            <h2 style="color: #000; font-size: 40px;">(83) 99852-0557</h2>
-            <p style="font-size: 16px; margin-top: 10px;">Clique no botão abaixo para atendimento imediato via WhatsApp.</p>
-            <a class="btn-emergency" style="background: #000; color: #fff;" href="https://wa.me/5583998520557">CHAMAR NO WHATSAPP</a>
-        </div>
-    </section>
+        <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
 
-    <section class="section" style="margin-top: 80px; text-align: center;">
-        <h2 class="section-title">Localização</h2>
-        <p>João Pessoa – PB (Atendimento em todo o Estado)</p>
-        <h2>Localização</h2>
-<iframe 
-src="https://www.google.com/maps?q=João+Pessoa+PB&output=embed"
-width="100%" 
-height="300" 
-style="border:0; border-radius:10px;" 
-allowfullscreen="" 
-loading="lazy">
-</iframe>
+        <section>
+            <h2 class="section-title">Especialidades</h2>
+            <div class="services-grid">
+                <div class="service-card"><h3>Habeas Corpus</h3><p>Medidas urgentes para cessar o constrangimento ilegal nos Tribunais.</p></div>
+                <div class="service-card"><h3>Tráfico de Drogas</h3><p>Defesa robusta em crimes de alta complexidade e Lei de Drogas.</p></div>
+                <div class="service-card"><h3>Tribunal do Júri</h3><p>Atuação técnica perante o Conselho de Sentença em crimes contra a vida.</p></div>
+            </div>
+        </section>
 
-</div>
+        <section style="margin-top: 80px;">
+            <div class="contact-info">
+                <p>ESTÁ PRECISANDO DE AJUDA AGORA?</p>
+                <h2 style="color: #000; font-size: 40px;">(83) 99852-0557</h2>
+                <p style="font-size: 16px; margin-top: 10px;">Rua Horácio Trajano de Oliveira, Cristo Redentor, João Pessoa - PB</p>
+                <a class="btn-emergency" style="background: #000; color: #fff;" href="https://wa.me/5583998520557">CHAMAR NO WHATSAPP</a>
+            </div>
+            
+            <div style="margin-top: 50px; text-align: center;">
+                <h2 class="section-title">Localização</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.857217523554!2d-34.8778385!3d-7.1425118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace80365737527%3A0x6334a193693e5067!2sR.%20Hor%C3%A1cio%20Trajano%20de%20Oliveira%20-%20Cristo%20Redentor%2C%20Jo%C3%A3o%20Pessoa%20-%20PB!5e0!3m2!1spt-BR!2sbr!4v1700000000000" 
+                    width="100%" height="450" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </div>
 
-<footer style="background: #000; padding: 40px; text-align: center; border-top: 1px solid var(--gold);">
-    <p style="color: var(--gold); font-weight: bold;">Wagner Silva Pinto – OAB/PB 32.045</p>
-    <p style="font-size: 12px; color: #666; margin-top: 10px;">&copy; 2026 Todos os direitos reservados. Defesa criminal técnica e ética.</p>
-</footer>
+    <footer style="background: #000; padding: 40px; text-align: center; border-top: 1px solid var(--gold);">
+        <p style="color: var(--gold); font-weight: bold;">Wagner Silva Pinto – OAB/PB 32.045</p>
+        <p style="font-size: 12px; color: #666; margin-top: 10px;">© 2026 Todos os direitos reservados. Defesa criminal técnica e ética.</p>
+    </footer>
 
 </body>
 </html>
